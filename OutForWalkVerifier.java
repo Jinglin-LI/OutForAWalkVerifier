@@ -3,9 +3,7 @@ import java.util.*;
 class OutForWalkVerifier {
   static int[][] AdjMat;
   static PriorityQueue <IntegerPair> pq;
-  
   private static Vector <Integer> path;
-
   private static Vector < Integer > visited;
 
   private static void DFSrec(int u) {
@@ -144,8 +142,6 @@ class OutForWalkVerifier {
 
 //    System.out.println("Test data is valid :)");
 
-    // Note, please check the positioning of blank lines to separate two test cases
-    // as this verifier program does not do this check yet.  
   }
 }
 
